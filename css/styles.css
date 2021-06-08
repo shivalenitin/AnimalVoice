@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    background-color: #283149;
+}
+h1{
+    font-size: 6rem;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+}
+h2{
+    font-size: 2.5rem;
+    color:#DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+}
+h3{
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #fff;
+}
+.key{
+    height: 250px;
+    width: 250px;
+    background-color:yellow;
+    display:inline-block;
+    margin: 10px;
+    border:2px solid #DA0463;
+}
+.key:hover{
+    background: #fff;
+    transform: scale(1.1);
+}
+.anim{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    color:#DA0463
+}
+.copynms{
+    text-align: center;
+    color: #fff;
+}
+.mew{
+    height: 200px;
+    width: 200px;
+}
+
+@media only screen and(max-width:980px){
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.8rem;
+    }
+}
